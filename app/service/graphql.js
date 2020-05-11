@@ -1,7 +1,7 @@
 'use strict';
 
 const { execute, formatError } = require('graphql');
-const gql = require('../../lib/graphql-tags');
+const gql = require('../../lib/graphql-tag');
 
 module.exports = app => {
   class GraphqlService extends app.Service {
